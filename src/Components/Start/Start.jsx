@@ -14,7 +14,9 @@ export function Start() {
           problemas técnicos e permite que você se concentre no crescimento do
           seu negócio.
         </p>
-        <a href="">Saiba mais!</a>
+        <div className="container-botton">
+          <a href="">Saiba mais!</a>
+        </div>
       </article>
     </section>
   );
