@@ -20,10 +20,14 @@
   display: inline-flex;
   font-size: 1.25rem;
   cursor: pointer;
+  z-index: 4;
 }
 .nav-toggle {
   color: #fff;
   transition: color 0.4s;
+}
+.ri-apps {
+  font-size: 1.5rem;
 }
 @media screen and (max-width: 1150px) {
   .nav-menu {
@@ -35,7 +39,7 @@
     box-shadow: 0 12px 24px rgba(87, 85, 85, 0.404);
     padding-block: 5rem 4rem;
     transition: top 0.4s;
-    z-index: 2;
+    z-index: 4;
   }
 }
 .container-list {
@@ -93,10 +97,7 @@
   background-color: #0c0fc7;
   box-shadow: 0 0 20px 10px rgba(7, 46, 243, 0.973);
 }
-.moon-icon {
-  color: #fff;
-  cursor: pointer;
-}
+
 @media screen and (min-width: 1150px) {
   .nav-actions {
     display: none !important;

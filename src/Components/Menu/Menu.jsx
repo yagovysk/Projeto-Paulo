@@ -16,11 +16,11 @@ export function Menu() {
       <Link to="/">
         <img className="logo" src={logo} alt="" />
       </Link>
-      <div className="nav-actions">
-        <div className="nav-toggle" onClick={toggleMenu}>
-          <RiApps2Line className="ri-apps" />
-        </div>
+
+      <div className="nav-toggle" onClick={toggleMenu}>
+        <RiApps2Line className="ri-apps" />
       </div>
+
       <nav
         className={`nav-menu ${showMenu ? "show-menu" : ""}`}
         aria-label="Menu de Navegação"
