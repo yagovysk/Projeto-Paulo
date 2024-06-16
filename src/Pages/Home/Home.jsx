@@ -1,4 +1,5 @@
 import { Menu } from "../../Components/Menu/Menu";
+import { Services } from "../../Components/Services/Services";
 import { Start } from "../../Components/Start/Start";
 import "./Home.css";
 
@@ -9,6 +10,7 @@ export function Home() {
         <Menu />
         <Start />
       </section>
+      <Services />
     </main>
   );
 }

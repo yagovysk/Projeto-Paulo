@@ -1,0 +1,134 @@
+.section-services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+  background-image: url("../../assets/background-services.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 6rem 2rem;
+}
+
+.section-services h2 {
+  color: #fff;
+  font-family: "Lexend Mega", sans-serif;
+  font-size: 3rem;
+}
+
+.services-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.service-container {
+  width: 100%;
+}
+
+.service-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border: 2px solid #fff;
+  width: 100%;
+  border-radius: 25px;
+  background-color: transparent;
+  color: #fff;
+  box-shadow: 0 0 20px 10px rgba(225, 225, 235, 0.652);
+  cursor: pointer;
+  font-family: "Lexend Peta", sans-serif;
+  font-size: 0.8rem;
+  transition: 0.5s ease;
+}
+
+.service-button .chevron-icon {
+  margin-left: 1rem;
+}
+
+.service-button:hover {
+  background-color: #066e88;
+  box-shadow: 0 0 20px 10px rgba(8, 190, 222, 0.652);
+  border: 2px solid #0dbee1;
+}
+
+.service-button.active {
+  background-color: #025163;
+  box-shadow: 0 0 20px 10px rgba(8, 190, 222, 0.652);
+  border: 2px solid #0dbee1;
+  color: #fff;
+}
+
+.service-description {
+  max-width: 600px;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.service-description p {
+  font-family: "Lexend Peta", sans-serif;
+  color: #fff;
+}
+
+.request-button {
+  padding: 1rem;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  background-color: transparent;
+  box-shadow: 0 0 20px 10px rgba(225, 225, 235, 0.652);
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s ease;
+  font-family: "Lexend Peta", sans-serif;
+}
+
+.request-button:hover {
+  background-color: #066e88;
+  box-shadow: 0 0 20px 10px rgba(13, 110, 206, 0.652);
+  border: 2px solid #0dbee1;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .services-buttons {
+    flex-direction: column;
+  }
+
+  .service-description {
+    max-width: 100%;
+  }
+  .service-description p {
+    font-size: 0.8rem;
+  }
+}
+
+/* Desktop Styles */
+@media (min-width: 769px) {
+  .section-services {
+    position: relative;
+    padding-bottom: 20rem;
+  }
+  .service-button {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .service-description {
+    display: none;
+  }
+  .service-description p {
+    width: 60rem;
+  }
+  .service-button.active + .service-description {
+    display: flex;
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+  }
+}

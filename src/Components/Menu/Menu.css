@@ -106,6 +106,7 @@
   }
   .nav-container {
     padding: 1.5rem 1rem !important;
+    align-items: center;
   }
   .container-list {
     display: flex !important;
@@ -122,5 +123,10 @@
   .item-list .link:hover {
     color: #0d0fa6;
     transform: translateY(-4px);
+  }
+}
+@media (max-width: 768px) {
+  .nav-container .logo {
+    margin-top: -3rem;
   }
 }

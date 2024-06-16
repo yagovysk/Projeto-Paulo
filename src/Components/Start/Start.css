@@ -43,3 +43,22 @@
 .container-botton {
   padding: 2rem 0;
 }
+@media (max-width: 768px) {
+  .article-start {
+    padding: 2rem 0;
+    gap: 1rem;
+  }
+  .article-start h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 20rem;
+  }
+  .article-start h2 {
+    font-size: 1rem;
+    width: 20rem;
+  }
+  .article-start p {
+    font-size: 0.8rem;
+    width: 20rem;
+  }
+}
