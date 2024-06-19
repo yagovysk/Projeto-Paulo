@@ -1,3 +1,6 @@
+.main-home {
+  overflow-x: hidden;
+}
 .section-menu-start {
   width: 100%;
   background: url("../../assets/background-home.svg");
@@ -7,6 +10,25 @@
   padding: 2rem 0;
   height: 90vh;
 }
+.scroll-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  background-color: #02484e;
+  color: #fff;
+  border: none;
+  padding: 0.3rem;
+  transition: 0.4s ease;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.scroll-button:hover {
+  background-color: #20d0e0;
+  transform: translateY(-5px);
+}
+
 @media (max-width: 768px) {
   .main-home {
     align-items: center;

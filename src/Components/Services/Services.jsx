@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./Services.css";
@@ -65,12 +65,21 @@ export function Services() {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth <= 768);
+      const isMobileView = window.innerWidth <= 768;
+      setIsMobile(isMobileView);
+      if (!isMobileView) {
+        setActiveService(0); // Defina o primeiro botão como ativo em telas desktop
+      } else {
+        setActiveService(null); // Resete o estado ativo em telas mobile
+      }
     };
 
     window.addEventListener("resize", handleResize);
+    handleResize(); // Chame a função uma vez para definir o estado inicial
+
     return () => window.removeEventListener("resize", handleResize);
   }, []);
+
   useEffect(() => {
     AOS.init({
       duration: 1000,
@@ -78,6 +87,7 @@ export function Services() {
     });
     AOS.refreshHard(); // Use refreshHard() instead of refresh()
   }, []);
+
   return (
     <section id="services" className="section-services">
       <h2 data-aos="fade-up" data-aos-delay="200">

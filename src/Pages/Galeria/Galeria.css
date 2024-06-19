@@ -1,0 +1,102 @@
+.main-galeria {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.section-gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 4rem 0;
+  background-image: url("../../assets/background-photos.svg");
+  background-size: cover;
+  background-position: center;
+  gap: 1rem;
+  min-height: 100vh !important; /* Garante que ocupa a altura total da tela */
+}
+
+.section-gallery h2 {
+  font-family: "Lexend Mega", sans-serif;
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+.section-gallery p {
+  font-family: "Lexend Peta", sans-serif;
+  text-align: center;
+  width: 60rem;
+  margin-top: -7rem;
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+.container-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 2rem; /* Ajuste o espaço entre os itens do grid conforme necessário */
+  padding: 1rem;
+  margin-bottom: -19rem;
+  padding-bottom: 0;
+}
+
+.gallery-content {
+  padding: 0;
+}
+.back-button {
+  text-decoration: none;
+  font-family: "Roboto mono", monospace;
+  background-color: rgb(6, 55, 96);
+  box-shadow: 0 0 20px 10px rgba(4, 133, 188, 0.973);
+  border: solid rgba(4, 133, 188, 0.973);
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 10px;
+  transition: 0.4s ease;
+  font-size: 0.8rem;
+}
+.back-button:hover {
+  background-color: rgb(9, 136, 195);
+  box-shadow: 0 0 20px 10px rgba(6, 169, 238, 0.973);
+}
+.gallery-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-photo {
+  width: 18rem;
+  border-radius: 15px;
+  height: 15rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  transition: 0.5s ease;
+  cursor: zoom-in;
+}
+
+.gallery-photo:hover {
+  transform: scale(1.1);
+}
+
+/* Responsividade para dispositivos móveis */
+@media (max-width: 768px) {
+  .container-gallery {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-bottom: 0;
+  }
+  .section-gallery p {
+    font-size: 0.8rem;
+    margin-top: 0;
+    width: 20rem;
+  }
+  .gallery-photo {
+    width: 9rem;
+    height: 9rem;
+  }
+}

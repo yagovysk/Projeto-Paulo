@@ -21,7 +21,7 @@ export function Sobre() {
         data-aos="fade-up"
         data-aos-delay="500"
       >
-        <p data-aos="fade-up" data-aos-delay="700">
+        <p data-aos="fade-up" data-aos-delay="600">
           A empresa foi fundada com o objetivo claro de atender o melhor
           possível seus clientes com base na relação de confiança que exerce com
           seus Clientes e Fornecedores. E pela seriedade com que trata a
