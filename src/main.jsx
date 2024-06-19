@@ -12,7 +12,7 @@ const router = createBrowserRouter([
   },
 
   {
-    path: "/haleria",
+    path: "/galeria-page",
     element: <Galeria />,
   },
 ]);

@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import "./Services.css";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 
@@ -25,9 +27,9 @@ export function Services() {
     },
     {
       id: 3,
-      title: "Vendas",
+      title: "Racks",
       description:
-        "A venda de equipamentos feita direto ao cliente, após solicitar o orçamento, que envolve a instalação do equipamento, configuração do sistema e do serviço. O cliente também pode solicitar a venda do equipamento separadamente, através do nosso contato, recebendo então apenas o equipamento, sem os serviços de instalação ou configuração. O equipamento é seu, e você pode solicitar serviços posteriores de suporte ou reparo da PHSO Bytes & Serviços, através do nosso contato.",
+        "Se seus racks de equipamentos e cabeamento estão em completa desordem devida várias manobras e cabos não utilizados (abandonados).PHSO- Bytes, tem uma equipe especializada nessa modalidade de serviços. ​Racks desorganizados além da má aparência para o seu negócio e dificuldade de gerenciamento, muitas vezes influencia na performance de todo o sistema de rede e telefonia.​",
       whatsappMessage:
         "Olá, gostaria de solicitar informações sobre o Serviço 3.",
     },
@@ -69,10 +71,18 @@ export function Services() {
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
-
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: false,
+    });
+    AOS.refreshHard(); // Use refreshHard() instead of refresh()
+  }, []);
   return (
-    <section className="section-services">
-      <h2>Serviços</h2>
+    <section id="services" className="section-services">
+      <h2 data-aos="fade-up" data-aos-delay="200">
+        Serviços
+      </h2>
       <div className={`services-buttons ${isMobile ? "mobile" : "desktop"}`}>
         {services.map((service, index) => (
           <div key={service.id} className="service-container">

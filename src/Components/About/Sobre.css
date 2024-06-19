@@ -1,0 +1,45 @@
+.about-section {
+  background-image: url("../../assets/background-sobre.svg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10rem;
+  gap: 4rem;
+}
+.about-section h2 {
+  color: #fff;
+  font-size: 3rem;
+  font-family: "Lexend Mega", sans-serif;
+}
+.about-article {
+  padding: 6rem 3rem;
+  background-color: #0d0fa6;
+  box-shadow: 0 0 20px 10px rgba(6, 121, 243, 0.652);
+  border-radius: 15px;
+}
+.about-article p {
+  color: #fff;
+  font-family: "Lexend Peta", sans-serif;
+  font-size: 1.3rem;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .about-section {
+    padding: 7rem 1rem;
+    background-size: auto;
+    background-position: 80%;
+  }
+  .about-section h2 {
+    font-size: 2rem;
+    width: 20rem;
+    text-align: center;
+  }
+  .about-article {
+    padding: 3rem 0.5rem;
+  }
+  .about-article p {
+    font-size: 0.8rem;
+  }
+}

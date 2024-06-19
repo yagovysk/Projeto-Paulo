@@ -1,9 +1,10 @@
+import { Link } from "react-router-dom";
 import "./Galeria.css";
 
 export function Galeria() {
   return (
-    <section>
-      <div></div>
+    <section className="section-galeria">
+      <Link to="/">Voltar</Link>
     </section>
   );
 }

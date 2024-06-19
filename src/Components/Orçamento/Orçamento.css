@@ -1,0 +1,70 @@
+.section-orçamento {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-image: url("../../assets/background-orçamento.svg");
+  background-size: cover;
+  padding: 10rem 0;
+}
+.section-orçamento img {
+  width: 22rem;
+  height: 25rem;
+}
+.article-orçamento {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  padding: 0;
+}
+.article-orçamento h2 {
+  color: #fff;
+  font-family: "Lexend Mega", sans-serif;
+  font-size: 2rem;
+}
+.article-orçamento p {
+  color: #fff;
+  font-family: "Lexend Peta", sans-serif;
+  text-align: left;
+  font-size: 1.3rem;
+  width: 45rem;
+  line-height: 1.5rem;
+}
+.article-orçamento a {
+  display: flex;
+  width: 11.5rem;
+  border-radius: 15px;
+  border: solid rgb(5, 205, 5);
+  font-family: "Roboto mono", monospace;
+  color: #fff;
+  text-decoration: none;
+  background: transparent;
+  padding: 1rem;
+  box-shadow: 0 0 20px 10px rgba(5, 182, 19, 0.652);
+  transition: 0.3s ease;
+}
+.article-orçamento a:hover {
+  box-shadow: 0 0 20px 10px rgba(6, 243, 25, 0.652);
+}
+@media (max-width: 768px) {
+  .section-orçamento {
+    flex-direction: column-reverse;
+    padding: 5rem 0;
+  }
+  .section-orçamento img {
+    width: 18rem;
+    height: 18rem;
+  }
+  .article-orçamento {
+    padding: 0 2rem;
+  }
+  .article-orçamento h2 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  .article-orçamento p {
+    font-size: 0.8rem;
+    width: 20rem;
+  }
+}

@@ -12,7 +12,7 @@ export function Start() {
     AOS.refreshHard(); // Use refreshHard() instead of refresh()
   }, []);
   return (
-    <section className="section-start">
+    <section id="inicio" className="section-start">
       <article
         className="article-start"
         data-aos="fade-up"

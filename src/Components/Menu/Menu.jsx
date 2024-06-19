@@ -1,5 +1,6 @@
-import { Link } from "react-router-dom";
 import React, { useState } from "react";
+import { Link as RouterLink } from "react-router-dom";
+import { Link } from "react-scroll";
 import { FaTimes } from "react-icons/fa";
 import { RiApps2Line } from "react-icons/ri";
 import logo from "../../assets/logo.png";
@@ -11,11 +12,12 @@ export function Menu() {
   const toggleMenu = () => {
     setShowMenu(!showMenu);
   };
+
   return (
     <nav className="nav-container">
-      <Link to="/">
+      <RouterLink to="/">
         <img className="logo" src={logo} alt="" />
-      </Link>
+      </RouterLink>
 
       <div className="nav-toggle" onClick={toggleMenu}>
         <RiApps2Line className="ri-apps" />
@@ -27,29 +29,53 @@ export function Menu() {
       >
         <ul className="container-list">
           <li className="item-list">
-            <Link to="/" href="" className="link">
+            <Link
+              to="inicio"
+              smooth={true}
+              duration={500}
+              className="link"
+              onClick={toggleMenu}
+            >
               Início
             </Link>
           </li>
           <li className="item-list">
-            <Link to="/About" href="" className="link">
+            <Link
+              to="services"
+              smooth={true}
+              duration={500}
+              className="link"
+              onClick={toggleMenu}
+            >
               Serviços
             </Link>
           </li>
           <li className="item-list">
-            <Link to="/Portfolio" href="" className="link">
+            <Link
+              to="about"
+              smooth={true}
+              duration={500}
+              className="link"
+              onClick={toggleMenu}
+            >
               Sobre Nós
             </Link>
           </li>
           <li className="item-list">
-            <Link to="/galeria" className="link">
+            <Link
+              to="galeria"
+              smooth={true}
+              duration={500}
+              className="link"
+              onClick={toggleMenu}
+            >
               Galeria
             </Link>
           </li>
           <li className="item-list">
-            <Link to="/Contato" href="" className="button-list">
+            <a href="" className="button-list">
               Entre em contato
-            </Link>
+            </a>
           </li>
         </ul>
         <div className="menu-close" onClick={toggleMenu}>
