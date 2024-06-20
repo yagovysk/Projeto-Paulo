@@ -42,10 +42,10 @@ export function Footer() {
         </li>
       </ul>
       <div className="container-icons">
-        <a href="" target="blank">
+        <a href="https://www.instagram.com/phsobytes/" target="blank">
           <FaInstagramSquare className="footer-icon" />
         </a>
-        <a href="" target="blank">
+        <a href="https://www.facebook.com/paulo.phsobytes" target="blank">
           <FaFacebook className="footer-icon" />
         </a>
         <a
