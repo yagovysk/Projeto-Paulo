@@ -71,7 +71,8 @@
 }
 
 .service-description p {
-  font-family: "Lexend Peta", sans-serif;
+  font-family: "Arimo", sans-serif;
+  line-height: 1.6rem;
   color: #fff;
 }
 

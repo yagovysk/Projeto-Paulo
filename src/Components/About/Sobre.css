@@ -16,12 +16,13 @@
 .about-article {
   padding: 6rem 3rem;
   background-color: #0d0fa6;
+  line-height: 1.8rem;
   box-shadow: 0 0 20px 10px rgba(6, 121, 243, 0.652);
   border-radius: 15px;
 }
 .about-article p {
   color: #fff;
-  font-family: "Lexend Peta", sans-serif;
+  font-family: "Arimo", sans-serif;
   font-size: 1.3rem;
   text-align: center;
 }
