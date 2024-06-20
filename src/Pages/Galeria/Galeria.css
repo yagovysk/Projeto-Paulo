@@ -25,8 +25,9 @@
 }
 
 .section-gallery p {
-  font-family: "Lexend Peta", sans-serif;
+  font-family: "Arimo", sans-serif;
   text-align: center;
+  line-height: 2rem;
   width: 60rem;
   margin-top: -7rem;
   font-size: 1.8rem;
@@ -93,6 +94,7 @@
   .section-gallery p {
     font-size: 0.8rem;
     margin-top: 0;
+    line-height: 1.3rem;
     width: 20rem;
   }
   .gallery-photo {

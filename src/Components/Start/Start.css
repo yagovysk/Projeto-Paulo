@@ -60,6 +60,7 @@
   }
   .article-start p {
     font-size: 0.8rem;
+    line-height: 1.4rem;
     width: 20rem;
   }
 }
