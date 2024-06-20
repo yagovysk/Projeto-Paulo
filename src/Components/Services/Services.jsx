@@ -15,7 +15,7 @@ export function Services() {
       description:
         "Especificação de Arquitetura, Segurança e Performance, Instalação e  Configuração de Servidores, Configuração de periféricos, Otimização de desempenho, Configuração de Redes com e Wifi. Instalação de softwares e hardware, configuração de  Roteadores e Switches. Cabeamento Estruturado - Documentação de REDE. Instalação e Reorganização de Rack de Equipamentos.",
       whatsappMessage:
-        "Olá, gostaria de solicitar informações sobre o Serviço 1.",
+        "Olá, vim pelo site, gostaria de solicitar seu serviço de isntalação e configuração.",
     },
     {
       id: 2,
@@ -23,7 +23,7 @@ export function Services() {
       description:
         "Em estabelecimentos, empresas ou indústrias, por onde circulam milhares de pessoas diariamente é indispensável que haja um serviço de segurança de qualidade. As avançadas tecnologias disponíveis atualmente contribuem para a criação de soluções eficazes e integradas com todos os sistemas e sensores de monitoramento e segurança, aplicando regras de alarmes e procedimentos de atuação, que serão traduzidos como um investimento em conforto e fidelização para com os clientes.",
       whatsappMessage:
-        "Olá, gostaria de solicitar informações sobre o Serviço 2.",
+        "Olá, vim pelo site, gostaria de solicitar seu serviço de Segurança.",
     },
     {
       id: 3,
@@ -31,7 +31,7 @@ export function Services() {
       description:
         "Se seus racks de equipamentos e cabeamento estão em completa desordem devida várias manobras e cabos não utilizados (abandonados).PHSO- Bytes, tem uma equipe especializada nessa modalidade de serviços. ​Racks desorganizados além da má aparência para o seu negócio e dificuldade de gerenciamento, muitas vezes influencia na performance de todo o sistema de rede e telefonia.​",
       whatsappMessage:
-        "Olá, gostaria de solicitar informações sobre o Serviço 3.",
+        "Olá, vim pelo site, gostaria de solicitar instalações de Racks.",
     },
     {
       id: 4,
@@ -39,7 +39,7 @@ export function Services() {
       description:
         "Está precisando ter um sistema de CFTV, conte com a PHSO Bytes & Serviços , para instalar este sistema para você, pois os sistemas de monitoramento, com certeza aumentam a segurança de uma residência ou empresa.",
       whatsappMessage:
-        "Olá, gostaria de solicitar informações sobre o Serviço 4.",
+        "Olá, vim pelo site, gostaria de solicitar uma instalação de sistema CFTV.",
     },
     {
       id: 5,
@@ -47,12 +47,12 @@ export function Services() {
       description:
         "Realizamos serviços de reparo nas instalações, atualização e otimização das mesmas, além da instalação do seu equipamento.",
       whatsappMessage:
-        "Olá, gostaria de solicitar informações sobre o Serviço 5.",
+        "Olá, vim pelo site, gostaria de solicitar uma assistência técnica.",
     },
   ];
 
   const handleWhatsAppClick = (message) => {
-    const phoneNumber = "5599999999999"; // Substitua pelo número de telefone desejado
+    const phoneNumber = "556184888530"; // Substitua pelo número de telefone desejado
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
       message
     )}`;

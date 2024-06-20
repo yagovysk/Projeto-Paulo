@@ -48,7 +48,12 @@ export function Start() {
           data-aos="fade-up"
           data-aos-delay="800"
         >
-          <a href="">Saiba mais!</a>
+          <a
+            href="https://wa.me/+556184888530?text=Olá, vim pelo site, gostaria de saber mais sobre seus serviços."
+            target="blank"
+          >
+            Saiba mais!
+          </a>
         </div>
       </article>
     </section>

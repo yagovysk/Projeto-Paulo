@@ -42,13 +42,16 @@ export function Footer() {
         </li>
       </ul>
       <div className="container-icons">
-        <a href="">
+        <a href="" target="blank">
           <FaInstagramSquare className="footer-icon" />
         </a>
-        <a href="">
+        <a href="" target="blank">
           <FaFacebook className="footer-icon" />
         </a>
-        <a href="">
+        <a
+          href="https://wa.me/+556184888530?text=Olá, vim pelo site, gostaria de saber mais sobre seus serviços."
+          target="blank"
+        >
           <FaWhatsappSquare className="footer-icon" />
         </a>
       </div>

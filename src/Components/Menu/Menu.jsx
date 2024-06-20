@@ -73,7 +73,11 @@ export function Menu() {
             </Link>
           </li>
           <li className="item-list">
-            <a href="" className="button-list">
+            <a
+              href="https://wa.me/+556184888530?text=Olá, vim pelo site, gostaria de saber mais sobre seus serviços."
+              target="blank"
+              className="button-list"
+            >
               Entre em contato
             </a>
           </li>

@@ -38,7 +38,12 @@ export function Orçamento() {
           </p>
         </div>
 
-        <a href="" data-aos="fade-up" data-aos-delay="600">
+        <a
+          href="https://wa.me/+556184888530?text=Olá, vim pelo site, gostaria de solicitar um orçamento."
+          target="blank"
+          data-aos="fade-up"
+          data-aos-delay="600"
+        >
           Solicitar orçamento
         </a>
       </article>
