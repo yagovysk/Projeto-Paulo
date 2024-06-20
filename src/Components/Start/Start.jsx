@@ -1,4 +1,5 @@
-import { useEffect } from "react";
+import React, { useEffect } from "react";
+import { Helmet } from "react-helmet";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./Start.css";
@@ -11,8 +12,18 @@ export function Start() {
     });
     AOS.refreshHard(); // Use refreshHard() instead of refresh()
   }, []);
+
   return (
     <section id="inicio" className="section-start">
+      <Helmet>
+        <title>
+          Ph - Bytes Soluções em TI - Cabeamento Estruturado de Redes
+        </title>
+        <meta
+          name="description"
+          content="Serviço especializado em cabeamento de rede e CFTV para uma internet mais rápida e estável, aumentando a produtividade e segurança."
+        />
+      </Helmet>
       <article
         className="article-start"
         data-aos="fade-up"
