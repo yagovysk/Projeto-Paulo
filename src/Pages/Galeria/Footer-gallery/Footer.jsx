@@ -7,13 +7,16 @@ export function FooterGallery() {
   return (
     <footer className="footer">
       <div className="container-icons">
-        <a href="">
+        <a href="https://www.instagram.com/phsobytes/" target="blank">
           <FaInstagramSquare className="footer-icon" />
         </a>
-        <a href="">
+        <a href="https://www.facebook.com/paulo.phsobytes" target="blank">
           <FaFacebook className="footer-icon" />
         </a>
-        <a href="">
+        <a
+          href="https://wa.me/+556184888530?text=Olá, vim pelo site, gostaria de saber mais sobre seus serviços."
+          target="blank"
+        >
           <FaWhatsappSquare className="footer-icon" />
         </a>
       </div>
