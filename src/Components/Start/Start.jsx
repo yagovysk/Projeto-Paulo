@@ -23,6 +23,10 @@ export function Start() {
           name="description"
           content="Serviço especializado em cabeamento de rede e CFTV para uma internet mais rápida e estável, aumentando a produtividade e segurança."
         />
+        <meta
+          name="google-site-verification"
+          content="6YgrxNVZ9knysI76PYSeaKjn8bw3y2UoCZlb1tCNbYk"
+        />
       </Helmet>
       <article
         className="article-start"
