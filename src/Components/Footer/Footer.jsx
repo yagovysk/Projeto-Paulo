@@ -3,6 +3,7 @@ import { Link as RouterLink } from "react-router-dom";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaWhatsappSquare } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
+import { MdAttachEmail } from "react-icons/md";
 
 import "./Footer.css";
 
@@ -47,6 +48,9 @@ export function Footer() {
         </a>
         <a href="https://www.facebook.com/paulo.phsobytes" target="blank">
           <FaFacebook className="footer-icon" />
+        </a>
+        <a href="mailto:phsobytes@gmail.com" target="blank">
+          <MdAttachEmail className="footer-icon" />
         </a>
         <a
           href="https://wa.me/+556184888530?text=Olá, vim pelo site, gostaria de saber mais sobre seus serviços."
