@@ -10,7 +10,7 @@ export function Start() {
       duration: 1000,
       once: false,
     });
-    AOS.refreshHard(); // Use refreshHard() instead of refresh()
+    AOS.refreshHard();
   }, []);
 
   return (
@@ -21,7 +21,7 @@ export function Start() {
         </title>
         <meta
           name="description"
-          content="Serviço especializado em cabeamento de rede e CFTV para uma internet mais rápida e estável, aumentando a produtividade e segurança."
+          content="Serviço especializado em cabeamento de rede e CFTV para uma internet mais rápida e estável, aumentando a produtividade e segurança. Também oferecemos serviços de instalação de câmeras para segurança do seu negócio."
         />
         <meta
           name="google-site-verification"
