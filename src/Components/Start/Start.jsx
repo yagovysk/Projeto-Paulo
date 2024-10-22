@@ -17,11 +17,11 @@ export function Start() {
     <section id="inicio" className="section-start">
       <Helmet>
         <title>
-          Ph - Bytes Soluções em TI - Cabeamento Estruturado de Redes
+          Ph - Bytes Soluções em TI | Cabeamento Estruturado de Redes Brasília
         </title>
         <meta
           name="description"
-          content="Serviço especializado em cabeamento de rede e CFTV para uma internet mais rápida e estável, aumentando a produtividade e segurança. Também oferecemos serviços de instalação de câmeras para segurança do seu negócio."
+          content="Serviço especializado em cabeamento de rede e CFTV para uma internet mais rápida e estável em Brasília, aumentando a produtividade e segurança. Também oferecemos serviços de instalação de câmeras para segurança do seu negócio."
         />
         <meta
           name="google-site-verification"
