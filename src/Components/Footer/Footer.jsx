@@ -53,7 +53,7 @@ export function Footer() {
           <MdAttachEmail className="footer-icon" />
         </a>
         <a
-          href="https://wa.me/+556184888530?text=Olá, vim pelo site, gostaria de saber mais sobre seus serviços."
+          href="https://wa.me/+5561982347066?text=Olá, vim pelo site, gostaria de saber mais sobre seus serviços."
           target="blank"
         >
           <FaWhatsappSquare className="footer-icon" />
