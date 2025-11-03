@@ -96,16 +96,36 @@
 
 /* Mobile Styles */
 @media (max-width: 768px) {
+  .section-services {
+    padding: 4rem 1rem;
+    gap: 2rem;
+  }
+
+  .section-services h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
   .services-buttons {
     flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  .service-button {
+    padding: 0.8rem 1rem;
+    font-size: 0.9rem;
   }
 
   .service-description {
     max-width: 100%;
+    margin-top: 1rem;
+    padding: 1rem;
   }
+
   .service-description p {
-    font-size: 0.8rem;
-    line-height: 1.3rem;
+    font-size: 0.85rem;
+    line-height: 1.4rem;
   }
 }
 

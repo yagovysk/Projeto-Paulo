@@ -109,6 +109,9 @@ export function Galeria() {
   const [selectedImage, setSelectedImage] = useState(null);
 
   useEffect(() => {
+    // Scroll para o topo da página
+    window.scrollTo(0, 0);
+
     AOS.init({
       duration: 1000,
       once: false,
