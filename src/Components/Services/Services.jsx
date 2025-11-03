@@ -52,7 +52,7 @@ export function Services() {
   ];
 
   const handleWhatsAppClick = (message) => {
-    const phoneNumber = "556184888530"; // Substitua pelo número de telefone desejado
+    const phoneNumber = "5561982347066"; // Substitua pelo número de telefone desejado
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
       message
     )}`;

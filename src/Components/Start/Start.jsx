@@ -58,7 +58,7 @@ export function Start() {
           data-aos-delay="800"
         >
           <a
-            href="https://wa.me/+556183247066?text=Olá, vim pelo site, gostaria de saber mais sobre seus serviços."
+            href="https://wa.me/+5561982347066?text=Olá, vim pelo site, gostaria de saber mais sobre seus serviços."
             target="blank"
           >
             Saiba mais!
