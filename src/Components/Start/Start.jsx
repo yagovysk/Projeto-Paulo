@@ -34,18 +34,23 @@ export function Start() {
         data-aos-delay="100"
       >
         <h1 data-aos="fade-up" data-aos-delay="200">
-          Soluções em TI
+          🔧 PHSO Soluções em TI
         </h1>
         <h2 data-aos="fade-up" data-aos-delay="400">
-          Cabeamento Estruturado de Redes
+          Tecnologia que protege, conecta e transforma.
         </h2>
         <p data-aos="fade-up" data-aos-delay="600">
-          Ter um serviço de TI especializado em cabeamento de rede e CFTV traz
-          muitos benefícios. Com um cabeamento bem feito, sua internet fica mais
-          rápida e estável, melhorando a produtividade. O sistema de CFTV
-          aumenta a segurança e permite monitoramento constante. Isso reduz
-          problemas técnicos e permite que você se concentre no crescimento do
-          seu negócio.
+          Na <span className="highlight-text">PHSO Soluções em TI</span>,
+          oferecemos soluções completas em{" "}
+          <span className="highlight-text">CFTV IP</span>,{" "}
+          <span className="highlight-text">rede estruturada</span>,{" "}
+          <span className="highlight-text">
+            manutenção de equipamentos tecnológicos
+          </span>{" "}
+          e o exclusivo serviço{" "}
+          <span className="highlight-text">Tec Refresh</span> pensado para
+          revitalizar e otimizar sua infraestrutura de TI com eficiência e
+          segurança.
         </p>
         <div
           className="container-botton"

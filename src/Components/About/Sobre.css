@@ -26,6 +26,69 @@
   font-size: 1.3rem;
   text-align: center;
 }
+
+.benefits-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.benefit-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  border-left: 4px solid #20d0e0;
+  transition: transform 0.3s ease;
+}
+
+.benefit-item:hover {
+  transform: translateY(-5px);
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.benefit-icon {
+  font-size: 1.5rem;
+  color: #20d0e0;
+  min-width: 24px;
+}
+
+.benefit-text {
+  color: #fff;
+  font-family: "Arimo", sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.4;
+}
+
+.cta-section {
+  margin-top: 3rem;
+  padding: 2rem;
+  background: linear-gradient(
+    135deg,
+    rgba(32, 208, 224, 0.2),
+    rgba(13, 15, 166, 0.3)
+  );
+  border-radius: 15px;
+  border: 2px solid #20d0e0;
+  text-align: center;
+}
+
+.cta-text {
+  color: #fff;
+  font-family: "Arimo", sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.highlight-blue {
+  color: #20d0e0;
+  font-weight: 700;
+  text-shadow: 0 0 10px rgba(32, 208, 224, 0.5);
+}
 @media (max-width: 768px) {
   .about-section {
     padding: 7rem 1rem;
@@ -43,5 +106,32 @@
   .about-article p {
     font-size: 0.8rem;
     line-height: 1.3rem;
+  }
+
+  .benefits-list {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .benefit-item {
+    padding: 0.8rem;
+  }
+
+  .benefit-icon {
+    font-size: 1.2rem;
+  }
+
+  .benefit-text {
+    font-size: 0.9rem;
+  }
+
+  .cta-section {
+    margin-top: 2rem;
+    padding: 1.5rem;
+  }
+
+  .cta-text {
+    font-size: 1rem;
+    line-height: 1.4;
   }
 }

@@ -11,35 +11,35 @@ export function Services() {
   const services = [
     {
       id: 1,
-      title: "Instalação e configuração",
+      title: "CFTV IP de alta performance",
       description:
-        "Especificação de Arquitetura, Segurança e Performance, Instalação e  Configuração de Servidores, Configuração de periféricos, Otimização de desempenho, Configuração de Redes com e Wifi. Instalação de softwares e hardware, configuração de  Roteadores e Switches. Cabeamento Estruturado - Documentação de REDE. Instalação e Reorganização de Rack de Equipamentos.",
+        "Monitoramento inteligente com câmeras IP, acesso remoto, gravação em nuvem e integração com sistemas de segurança.",
       whatsappMessage:
-        "Olá, vim pelo site, gostaria de solicitar seu serviço de isntalação e configuração.",
+        "Olá, vim pelo site, gostaria de solicitar seu serviço de CFTV IP de alta performance.",
     },
     {
       id: 2,
-      title: "Segurança",
+      title: "Rede estruturada com alto desempenho",
       description:
-        "Em estabelecimentos, empresas ou indústrias, por onde circulam milhares de pessoas diariamente é indispensável que haja um serviço de segurança de qualidade. As avançadas tecnologias disponíveis atualmente contribuem para a criação de soluções eficazes e integradas com todos os sistemas e sensores de monitoramento e segurança, aplicando regras de alarmes e procedimentos de atuação, que serão traduzidos como um investimento em conforto e fidelização para com os clientes.",
+        "Projetos e implantação de infraestrutura de rede com cabeamento organizado, switches, roteadores e pontos de acesso otimizados.",
       whatsappMessage:
-        "Olá, vim pelo site, gostaria de solicitar seu serviço de Segurança.",
+        "Olá, vim pelo site, gostaria de solicitar seu serviço de Rede estruturada com alto desempenho.",
     },
     {
       id: 3,
-      title: "Racks",
+      title: "Manutenção de equipamentos de TI",
       description:
-        "Se seus racks de equipamentos e cabeamento estão em completa desordem devida várias manobras e cabos não utilizados (abandonados).PHSO- Bytes, tem uma equipe especializada nessa modalidade de serviços. ​Racks desorganizados além da má aparência para o seu negócio e dificuldade de gerenciamento, muitas vezes influencia na performance de todo o sistema de rede e telefonia.​",
+        "Diagnóstico, reparo e suporte técnico para computadores, servidores, periféricos e dispositivos de rede.​",
       whatsappMessage:
-        "Olá, vim pelo site, gostaria de solicitar instalações de Racks.",
+        "Olá, vim pelo site, gostaria de solicitar serviços de manutenção de equipamentos de TI.",
     },
     {
       id: 4,
-      title: "CFTV",
+      title: "Tec Refresh: renovação tecnológica inteligente",
       description:
-        "Está precisando ter um sistema de CFTV, conte com a PHSO Bytes & Serviços , para instalar este sistema para você, pois os sistemas de monitoramento, com certeza aumentam a segurança de uma residência ou empresa.",
+        "Atualização estratégica de equipamentos, softwares e sistemas para garantir performance, segurança e compatibilidade com as demandas atuais — sem precisar trocar tudo do zero.",
       whatsappMessage:
-        "Olá, vim pelo site, gostaria de solicitar uma instalação de sistema CFTV.",
+        "Olá, vim pelo site, gostaria de solicitar uma instalação de Tec Refresh: renovação tecnológica inteligente.",
     },
     {
       id: 5,
@@ -91,7 +91,7 @@ export function Services() {
   return (
     <section id="services" className="section-services">
       <h2 data-aos="fade-up" data-aos-delay="200">
-        Serviços
+        Nossas especialidades
       </h2>
       <div className={`services-buttons ${isMobile ? "mobile" : "desktop"}`}>
         {services.map((service, index) => (
